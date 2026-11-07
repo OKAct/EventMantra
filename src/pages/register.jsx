@@ -25,7 +25,7 @@ const Register=()=>{
   }
   
   const isempty=()=>{
-    if(email===false || number===false || credit_card===false){
+    if(email===false || number===false || credit_card===false || name===true){
       alert("Fill all the fields");
     }
   }
@@ -33,6 +33,7 @@ const Register=()=>{
   const [email,setemail]=useState(false);
   const [number,setnumber]=useState(false);
   const [credit_card,setcreditcard]=useState(false);
+  const [name,setname]=useState(false);
 
   return(
     <>
@@ -47,6 +48,10 @@ const Register=()=>{
     flexDirection:"column" ,gap:2}}>
 
     <h2 className="registration">Registration</h2>
+
+    <TextField label="Name" 
+      onChange={(e)=>(setname(true))}
+    />
 
     <TextField label="Email" 
       onChange={(e)=>(setemail(true))}
