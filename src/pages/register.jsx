@@ -25,7 +25,7 @@ const Register=()=>{
   }
   
   const isempty=()=>{
-    if(email===false || number===false || credit_card===false || name===true){
+    if(email===false || number===false || credit_card===false || name===false){
       alert("Fill all the fields");
     }
   }
