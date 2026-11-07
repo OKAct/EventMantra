@@ -1,0 +1,143 @@
+.body{
+  background:white;
+}
+
+html,body,#root{
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+.box{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  height:100%;
+  width:100%;
+  background-image:
+        radial-gradient(circle at 20% 30%, #00ff00, transparent 55%),
+        radial-gradient(circle at 140% 10%, #ffffff, transparent 40%);
+  background-color:darkgreen;
+}
+
+.slogan{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  justify-content:center;
+  height:50%;
+  color:white;
+  width:95%;
+  font-size:3rem;
+}
+.image{
+
+  height:70%;
+  width:50%;
+  border:.25rem solid transparent;
+}
+
+.eventslist{
+
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:0.5rem;
+  height:70%;
+  width:85%;
+}
+.gid{
+
+  height:30%;
+  width:30%;
+  background-color:white;
+}
+.card1{
+  display:flex;
+  align-items:flex-end;
+  justify-content:flex-start;
+
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  color:white;
+ 
+
+  border:2px solid white;
+  transition:transform 0.3 ease;
+}
+
+.card1:hover{
+  transform:scale(1.4);
+  cursor:pointer;
+  background-color:white;
+}
+
+.card2{
+  position:absolute;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  border:2px solid white;
+  justify-content:flex-end;
+  background-color:white;
+  height:90%;
+  width:90%;
+  left:3rem;
+  padding-right:1rem;
+  bottom:1rem;
+
+  background-image:url("https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_the_legend_of_zelda_fan_art_02_1920x1080.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  color:white;
+}
+
+.close{
+  position:absolute;
+  left:2rem;
+  bottom:30.5rem;
+}
+.eventdetail{
+  height:30%;
+  width:40%;
+  position:absolute;
+  right:30rem;
+  font-size:2rem;
+}
+
+.event_header{
+
+  display:flex;
+  align-items:center;
+  font-size:4rem;
+  width:85%;
+  height:15%;
+  justify-content:center;
+}
+
+.registration{
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:2rem;
+}
+.logo{
+
+  position:absolute;
+  height:30%;
+  width:25%;
+  right:77%;
+  bottom:75%;
+}
+.logo:hover{
+
+  cursor:pointer;
+
+}
+
+
+
