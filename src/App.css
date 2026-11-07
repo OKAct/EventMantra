@@ -97,8 +97,8 @@ html,body,#root{
 
 .close{
   position:absolute;
-  left:2rem;
-  bottom:30.5rem;
+  left:3%;
+  bottom:92%;
 }
 .eventdetail{
   height:30%;
